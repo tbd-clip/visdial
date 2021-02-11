@@ -89,6 +89,9 @@ python -c "import nltk; nltk.download('all')"
 
 [VisDial v1.0][27] dataset can be downloaded and preprocessed as specified below. The path provided as `-image_root` must have four subdirectories - [`train2014`][34] and [`val2014`][35] as per COCO dataset, `VisualDialog_val2018` and `VisualDialog_test2018` which can be downloaded from [here][27].
 
+Alternatively, there's a script to download these 4 subdirectories:
+asdfasdfa
+
 ```sh
 cd data
 python prepro.py -download -image_root /path/to/images
